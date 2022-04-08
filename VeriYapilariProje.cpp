@@ -66,8 +66,8 @@ int main()
 	//l->yazdir(); 
 	cout << "---------- islemi yapıldı" << endl << endl;
 	cout << "Linked List Veri Adeti --> " << EklenecekVeriSayisi << " <--" << endl;
-	cout << "Ekleme suresi => " << LinkedEkleElapsed.count() << " mikro-saniye" << endl;
-	cout << "Guncelleme suresi => " << LinkedGuncelleElapsed.count() << " mikro-saniye" << endl;
+	cout << "Linked List Veri Ekleme suresi => " << LinkedEkleElapsed.count() << " mikro-saniye" << endl;
+	cout << "Linked List Veri Guncelleme suresi => " << LinkedGuncelleElapsed.count() << " mikro-saniye" << endl;
 
 }
 
@@ -84,13 +84,11 @@ void LinkedList::ekle(int yenideger, int sira)
 		cout << " test1 \t";
 		return;
 	}
-
 	int dugumSayisi = 0;
 	Node* tara;
 	tara = bas;
 	if (sira == 1)
 	{
-
 		umutnode->sonraki = bas;
 		umutnode->deger = yenideger;
 		bas = umutnode;
