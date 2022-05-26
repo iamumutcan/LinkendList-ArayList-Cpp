@@ -2,6 +2,7 @@
 
 ArrayList ve LinkedList  mantığını kavram ve ekle/sil/güncelle fonksiyonları yazıp hangisinin hangi işlemde daha performanslı çalıştığını ölçemek.
 
+# Fonksiyonlar
 `void  LinkedList::olustur()`:  LinkedListi oluşturur ver listenin başına NULL değerini atar.
 
 `void  LinkedList::yazdir()`  : LinkedListe bulunan tüm verileri ekrana yazdırır
